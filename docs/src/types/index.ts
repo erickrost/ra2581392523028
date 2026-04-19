@@ -32,6 +32,7 @@ export interface SiteData {
   title: string;
   shortDesc: string;
   about: string[];
+  interests: { label: string; items: string[] }[];
   experiences: Experience[];
   projects: Project[];
   education: Education[];

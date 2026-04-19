@@ -18,6 +18,21 @@ const data: SiteData = {
   `<strong>Mais do que tecnologia, me interessa entender como e por que as coisas funcionam, mas como podem funcionar melhor.</strong>`
 ],
 
+  interests: [
+    {
+      label: 'Stack',
+      items: ['TypeScript', 'Node.js', 'React', 'PostgreSQL', 'SAP HANA', 'Docker', 'REST APIs', 'SQL'],
+    },
+    {
+      label: 'Explorando',
+      items: ['.NET', 'Azure'],
+    },
+    {
+      label: 'Interesses',
+      items: ['Arquitetura de Microsserviços', 'Integração de Sistemas', 'Cloud Computing', 'DevOps'],
+    },
+  ],
+
   experiences: [
     {
       role: 'Analista de Sustentação SAP Business One',
@@ -67,7 +82,7 @@ const data: SiteData = {
     {
       name: 'INPE - AgriRS Lab',
       description: `O projeto ABP (Aprendizagem Baseada em Projeto) desenvolvido como atividade do 1° semestre do curso de Desenvolvimento de Software Multiplataforma da Fatec Jacareí, tem como objetivo criar um website para o Laboratório de Sensoriamento Remoto Agrícola do INPE (AgriRS Lab). Contribuindo para manter as atividades e descobertas científicas atualizadas para a comunidade e promove a divulgação do laboratório para interessados em conhecer ou colaborar com o trabalho desenvolvido.`,
-      tags: ['JavaScript', 'Bootstrap', 'HTML', 'CSS', 'PostgreSQL', 'Node.js', 'Express', 'REST API'],
+      tags: ['JavaScript', 'HTML', 'CSS', 'PostgreSQL', 'Node.js', 'Express', 'REST API'],
       link: { label: 'GitHub', url: 'https://github.com/erickrost/AgriRS-Lab/tree/main' },
     },
     {
