@@ -24,10 +24,9 @@ export default function Sidebar({
   return (
     <aside className="sidebar">
       <div className="sidebar-top">
-        <div className="sidebar-avatar-wrap">
-<div className="sidebar-avatar">
-  <img src="../../public/foto.jpg" alt="Erick Rost" />
-</div>        </div>
+ <div className="sidebar-avatar">
+  <img src={`${import.meta.env.BASE_URL}foto.jpg`} alt={name} />
+</div>
 
         <p className="sidebar-name">{name}</p>
         <p className="sidebar-title">{title}</p>
