@@ -77,7 +77,7 @@ const data: SiteData = {
       link: { label: 'Artigo', url: 'https://www.even3.com.br/anais/xviiienfocuninter/1234789-bancos-de-dados-em-sig--analise-critica-de-praticas-desafios-e-potencial-de-estudo/' },
     },
   ],
-
+ 
     education: [
     {
       type: 'education' as const,
